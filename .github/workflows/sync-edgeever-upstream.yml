@@ -4,6 +4,7 @@ name: Update deployed EdgeEver
 # Deployment Forks mirror product code by default while preserving a small
 # updater layer so GITHUB_TOKEN never needs permission to rewrite Actions.
 # The rare customized Fork must explicitly opt in to merge preservation.
+# (updater-bootstrap v2: refresh the schedule trigger definition)
 
 on:
   schedule:
